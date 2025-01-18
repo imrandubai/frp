@@ -56,7 +56,7 @@ services:
       # - ${HOME}/.ssh:/home/frappe/.ssh
     working_dir: /workspace/development
     ports:
-      - 8080-8085:8000-8005
+      - 8085-8086:8000-8005
       - 9100-9105:9000-9005
   # enable the below service if you need Cypress UI Tests to be executed
   # Before enabling ensure install_x11_deps.sh has been executed and display variable is exported.
